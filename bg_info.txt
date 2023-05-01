@@ -1,0 +1,95 @@
+It's about ElevenLabs and their API. Here's the documentation:
+
+POST
+/v1/text-to-speech/{voice_id}
+Text To Speech
+
+POST
+/v1/text-to-speech/{voice_id}/stream
+Text To Speech
+models
+Access the different models of the platform.
+
+
+
+GET
+/v1/models
+Get Models
+voices
+Access to voices created either by you or us.
+
+
+
+GET
+/v1/voices
+Get Voices
+
+GET
+/v1/voices/settings/default
+Get Default Voice Settings.
+
+GET
+/v1/voices/{voice_id}/settings
+Get Voice Settings
+
+GET
+/v1/voices/{voice_id}
+Get Voice
+
+DELETE
+/v1/voices/{voice_id}
+Delete Voice
+
+POST
+/v1/voices/{voice_id}/settings/edit
+Edit Voice Settings
+
+POST
+/v1/voices/add
+Add Voice
+
+POST
+/v1/voices/{voice_id}/edit
+Edit Voice
+samples
+Access to your samples. A sample is any audio file you attached to a voice. A voice can have one or more samples.
+
+
+
+DELETE
+/v1/voices/{voice_id}/samples/{sample_id}
+Delete Sample
+
+GET
+/v1/voices/{voice_id}/samples/{sample_id}/audio
+Get Audio From Sample
+history
+Accesses your history. Your history is a list of all your created audio including its metadata.
+
+
+
+GET
+/v1/history
+Get Generated Items
+
+GET
+/v1/history/{history_item_id}/audio
+Get Audio From History Item
+
+DELETE
+/v1/history/{history_item_id}
+Delete History Item
+
+POST
+/v1/history/download
+Download History Items
+user
+
+
+GET
+/v1/user/subscription
+Get User Subscription Info
+
+GET
+/v1/user
+Get User Info

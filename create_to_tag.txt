@@ -1,0 +1,105 @@
+About
+Using Eleven Labs api to read text.
+
+Resources
+ Readme
+Stars
+ 1 star
+Watchers
+ 1 watching
+Forks
+ 0 forks
+Report repository
+Releases
+No releases published
+Packages
+No packages published
+Languages
+C++
+38.2%
+ 
+CMake
+30.9%
+ 
+Dart
+22.9%
+ 
+HTML
+3.1%
+ 
+C
+2.3%
+ 
+Swift
+2.3%
+ 
+Other
+0.3%
+
+
+
+
+Kelvin Rodrigues Update
+f95a96f
+on Feb 9
+Git stats
+ 7 commits
+Files
+Type
+Name
+Latest commit message
+Commit time
+android
+Eleven labs tts app
+3 months ago
+ios
+Eleven labs tts app
+3 months ago
+lib
+Update
+3 months ago
+linux
+Eleven Labs api working
+3 months ago
+macos
+Eleven Labs api working
+3 months ago
+test
+Eleven labs tts app
+3 months ago
+web
+Eleven labs tts app
+3 months ago
+windows
+Eleven Labs api working
+3 months ago
+.gitignore
+Eleven labs tts app
+3 months ago
+.metadata
+Eleven labs tts app
+3 months ago
+README.md
+Eleven labs tts app
+3 months ago
+analysis_options.yaml
+Eleven labs tts app
+3 months ago
+pubspec.lock
+Panel Added
+3 months ago
+pubspec.yaml
+Panel Added
+3 months ago
+README.md
+elevenlabs_tts_app
+A new Flutter project.
+
+Getting Started
+This project is a starting point for a Flutter application.
+
+A few resources to get you started if this is your first Flutter project:
+
+Lab: Write your first Flutter app
+Cookbook: Useful Flutter samples
+For help getting started with Flutter development, view the online documentation, which offers tutorials, samples, guidance on mobile development, and a full API reference.

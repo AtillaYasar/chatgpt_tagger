@@ -1,0 +1,428 @@
+Title: Mycroft TTS Plugin ElevenLabs:  https://github.com/KishCom/mycroft-tts-plugin-elevenlabs
+Conversation:
+assistant:
+1) The background info provides documentation for ElevenLabs' API, which includes endpoints for text-to-speech, accessing models and voices, managing samples and history, and user information.
+
+2) The text is a GitHub repository for a Mycroft TTS plugin that utilizes ElevenLabs' API. It provides a brief description of the plugin and its configuration parameters.
+
+3) 
+- The GitHub repository is for a Mycroft TTS plugin that requires a subscription to ElevenLabs' API.
+- The plugin is not very robust, but works well.
+- The configuration parameters include the module name, "elevenlabs_tts", and the user's ElevenLabs API key and the ID of the voice they want to use.
+
+user:
+Which endpoints are used?
+
+assistant:
+Based on the information provided in the text, it appears that the plugin utilizes the "Text To Speech" endpoint of ElevenLabs' API, as it requires the user to provide the ID of the voice they want to use and their API key. However, it is unclear if any other endpoints are used by the plugin.
+
+==================================================
+==================================================
+==================================================
+Title: Unofficial Python library: https://github.com/benbaptist/elevenlabs
+Conversation:
+assistant:
+1) The background info provides documentation for ElevenLabs' API, which includes endpoints for text-to-speech, accessing models and voices, managing samples and history, and user information. 
+
+2) The text is a description of an unofficial Python library that provides an interface for ElevenLabs' API. It includes information on the library's resources, installation, basic usage, and a real-world example of its use. 
+
+3) 
+- The text describes an unofficial Python library that interfaces with ElevenLabs' API.
+- The library provides an easy-to-use interface for generating voices using the API.
+- The library can be installed using pip.
+- The library requires no special dependencies and is written in pure Python.
+- The library includes an example of how to retrieve data from the API and generate TTS.
+- The library's documentation and API reference are currently non-existent.
+- The official ElevenLabs library is now available and the PyPi package for this unofficial library will now point to the official library moving forward. 
+- The author of the text is using the library to produce fully-automated weather reports on their radio station.
+
+user:
+Which endpoints are used?
+
+assistant:
+The text does not explicitly mention which endpoints are used by the unofficial Python library. However, based on the library's functionality, it is likely that it uses the `/v1/text-to-speech/{voice_id}` and `/v1/voices` endpoints to generate voices and access voice information, respectively.
+
+==================================================
+==================================================
+==================================================
+Title: ElevenLabs simple MP3 Generation: https://github.com/ThomasSilloway/ElevenLabsTTS
+Conversation:
+assistant:
+1) The background info provides documentation for ElevenLabs' API, which includes endpoints for text-to-speech, accessing models and voices, managing samples and history, and user information.
+
+2) The text is a brief description of a GitHub repository called "ElevenLabsTTS" that allows users to generate an MP3 file using ElevenLabs' text-to-speech API and play it back. The text also includes an example usage command.
+
+3) 
+- The text describes a GitHub repository called "ElevenLabsTTS"
+- The repository allows users to generate an MP3 file using ElevenLabs' text-to-speech API and play it back
+- The text includes an example usage command using the "src.main" module and passing in a text parameter
+- The repository is licensed under the MIT license
+- The repository has 2 stars and 1 watcher on GitHub
+- The repository has 3 commits and is primarily written in Python (99.3%) with a small amount of Batchfile code (0.7%)
+- The repository includes files for configuration, source code, ignoring files, licensing, building, requirements, and setup.
+
+user:
+Which endpoints are used?
+
+assistant:
+The text does not explicitly mention which endpoints are used. However, it does mention that the repository allows users to generate an MP3 file using ElevenLabs' text-to-speech API, which suggests that the "POST /v1/text-to-speech/{voice_id}" or "POST /v1/text-to-speech/{voice_id}/stream" endpoints may be used. The example usage command also includes the text parameter, which suggests that the "POST /v1/text-to-speech/{voice_id}" endpoint may be used with the text parameter passed in.
+
+==================================================
+==================================================
+==================================================
+Title: Speech To Speech using ElevenLabs: https://github.com/lugia19/speechToSpeechElevenLabs
+Conversation:
+assistant:
+1) The background info provides documentation for ElevenLabs' API, which includes endpoints for text-to-speech, accessing models and voices, managing samples and history, and user information. 
+
+2) The text is a description of a Python script called "Speech to Speech using ElevenLabs" that offers speech-to-text-to-speech functionality using various services. The script has a GUI and stores user settings, including API keys, in the system keyring. It offers three speech recognition services (Vosk, Azure, and Whisper) and two text-to-speech providers (Elevenlabs and pyttsx3). The recognized and translated text is sent to the chosen text-to-speech provider and can be synchronized with an OBS text source using obsws-python. The text also provides installation and usage instructions, including notes on using the script with Discord and customizing the Vosk models.
+
+3) 
+- The text describes a Python script that offers speech-to-text-to-speech functionality using various services.
+- The script has a GUI and stores user settings, including API keys, in the system keyring.
+- The script offers three speech recognition services (Vosk, Azure, and Whisper) and two text-to-speech providers (Elevenlabs and pyttsx3).
+- The recognized and translated text is sent to the chosen text-to-speech provider and can be synchronized with an OBS text source using obsws-python.
+- The text provides installation and usage instructions, including notes on using the script with Discord and customizing the Vosk models.
+
+user:
+Which endpoints are used?
+
+assistant:
+The text does not explicitly mention which endpoints are used from ElevenLabs' API. However, it does mention that the script uses Elevenlabs as one of its text-to-speech providers, which suggests that it may be using the `/v1/text-to-speech/{voice_id}` and `/v1/text-to-speech/{voice_id}/stream` endpoints. It is also possible that the script may be using other endpoints for accessing models and voices, managing samples and history, and user information, but this cannot be confirmed without further information.
+
+==================================================
+==================================================
+==================================================
+Title: Full python implementation of the elevenlabs API: https://github.com/lugia19/elevenlabslib
+Conversation:
+assistant:
+1) The background info provides documentation for the ElevenLabs API, which includes endpoints for text-to-speech, accessing models and voices, managing samples and history, and user information.
+
+2) The text is a Python implementation of the ElevenLabs API, specifically a wrapper for the full API. It includes installation instructions, usage examples, and a link to documentation.
+
+3) 
+- The text provides a Python implementation of the ElevenLabs API.
+- The implementation is a wrapper for the full API.
+- The wrapper includes installation instructions for the library.
+- The text provides a simple usage example for the wrapper.
+- The example retrieves a voice based on its name, plays back its samples and preview, generates and plays back new audio, and deletes the newly created audio from the user history.
+- The text includes a link to documentation for the wrapper.
+
+user:
+Which endpoints are used?
+
+assistant:
+The text-to-speech endpoint is used in the example provided in the text. Specifically, the example retrieves a voice and generates and plays back new audio using the voice.
+
+==================================================
+==================================================
+==================================================
+Title: GPT-3 chatbot with ElevenLabs API: https://github.com/1nnovat1on/gpt_chatbot
+Conversation:
+assistant:
+1) The background info provides documentation for ElevenLabs API, which includes endpoints for text-to-speech, models, voices, samples, history, and user information.
+
+2) The text is a description of a GPT-3 chatbot that uses ElevenLabs API for text-to-speech functionality and Pinecone API for long-term memory storage. The chatbot allows users to communicate with GPT-4 using their microphone and responds with a voice using Windows TTS. The text provides instructions for setting up and running the chatbot, including creating an index in Pinecone and setting environment variables for API keys.
+
+3) 
+- The text describes a GPT-3 chatbot that uses ElevenLabs API for text-to-speech functionality and Pinecone API for long-term memory storage.
+- The chatbot allows users to communicate with GPT-4 using their microphone and responds with a voice using Windows TTS.
+- The text provides instructions for setting up and running the chatbot, including creating an index in Pinecone and setting environment variables for API keys.
+- The chatbot uses Windows TTS to respond, which may require initial setup in the control panel/settings.
+- Accounts and API keys for OpenAI and Pinecone are required to use the chatbot.
+- The Pinecone API is used to create a long-term memory that loops in bits of conversation the user has had.
+- The text provides instructions for creating a Pinecone index with specific attributes.
+- The chatbot also uses ElevenLabs API to respond with a realistic voice, but this functionality is disabled for speed.
+
+user:
+Which endpoints are used?
+
+assistant:
+The text mentions that the GPT-3 chatbot uses ElevenLabs API for text-to-speech functionality, but it does not specify which endpoints are used.
+
+==================================================
+==================================================
+==================================================
+Title: GPT-3 Speech To Text Chatbot (with ElevenLabs integration) : https://github.com/Adri6336/gpt3-speech-to-text-chatbot
+Conversation:
+assistant:
+1) The background info provides documentation for ElevenLabs API, which includes endpoints for text-to-speech, models, voices, samples, history, and user information. 
+2) The text is a description of a GPT-3 Speech to Text Chatbot that integrates with ElevenLabs API. It allows users to have a spoken or CLI conversation with the AI ChatGPT or GPT-4, with the option to remember things discussed. The bot uses a modified GPT chat preset and ChatGPT's API by default. The text provides instructions for installing and using the chatbot, as well as a breakdown of its features and example use cases. 
+3) 
+- The text describes a GPT-3 Speech to Text Chatbot that integrates with ElevenLabs API.
+- The chatbot allows users to have a spoken or CLI conversation with the AI ChatGPT or GPT-4, with the option to remember things discussed.
+- The bot uses a modified GPT chat preset and ChatGPT's API by default.
+- The text provides instructions for installing and using the chatbot, as well as a breakdown of its features and example use cases.
+- The chatbot requires a valid OpenAI API key and relies on OpenAI's moderation and GPT APIs to be working properly without too much latency.
+- The text provides controls for using the chatbot, including keyboard and voice commands.
+- The chatbot can use Google's TTS tool, ElevenLab's life-like TTS, or a robotic TTS program to talk to users.
+- The text provides example videos of the chatbot in action.
+
+user:
+Which endpoints are used?
+
+assistant:
+The text does not explicitly mention which endpoints are used from ElevenLabs API. However, it does mention that the chatbot requires a valid OpenAI API key and relies on OpenAI's moderation and GPT APIs to be working properly without too much latency.
+
+==================================================
+==================================================
+==================================================
+Title: LiveSynth - generates AI voice using Whisper and ElevenLabs API: https://github.com/babbaj/LiveSynth
+Conversation:
+assistant:
+1) General description of the background info:
+The background info provides documentation for ElevenLabs API, which offers text-to-speech services, access to different models and voices, and samples. It also includes information on accessing user subscription and history.
+
+2) General description of the text:
+The text is a README file for a program called LiveSynth, which generates an AI voice using OpenAI's Whisper and ElevenLabs API. The program allows users to record their voice, have it transcribed, and used to generate an AI voice. The README file provides information on the requirements for using the program, how to use it, and some caveats.
+
+3) Bulletpoint breakdown of the text:
+- LiveSynth is a program that generates an AI voice using OpenAI's Whisper and ElevenLabs API
+- Users can record their voice, have it transcribed, and used to generate an AI voice
+- The program requires Linux, PipeWire or PulseAudio, and CUDA
+- Users can specify the x11 keysym for recording their voice and the voice ID for generating the AI voice
+- The default whisper model requires 5GB of VRAM, but this can be changed with the --model or --cpu options
+- Users can output to a custom sink or choose a specific input with the --output-sink and --input-source options
+- The README file provides commands for creating a virtual sink and source
+- The ElevenLabs API can take a while to return a result, and Whisper uses a lot of VRAM.
+
+user:
+Which endpoints are used?
+
+assistant:
+The README file for LiveSynth does not explicitly mention which endpoints are used from the ElevenLabs API. However, it does mention that the program requires the user to provide an API key for ElevenLabs, and it specifies the voice ID for generating the AI voice. Therefore, it is likely that the program uses one or more of the following endpoints from the ElevenLabs API:
+
+- POST /v1/text-to-speech/{voice_id}
+- POST /v1/text-to-speech/{voice_id}/stream
+- GET /v1/models
+- GET /v1/voices
+- GET /v1/voices/settings/default
+- GET /v1/voices/{voice_id}/settings
+- GET /v1/voices/{voice_id}
+- DELETE /v1/voices/{voice_id}
+- POST /v1/voices/{voice_id}/settings/edit
+- POST /v1/voices/add
+- POST /v1/voices/{voice_id}/edit
+- DELETE /v1/voices/{voice_id}/samples/{sample_id}
+- GET /v1/voices/{voice_id}/samples/{sample_id}/audio
+- GET /v1/history
+- GET /v1/history/{history_item_id}/audio
+- DELETE /v1/history/{history_item_id}
+- POST /v1/history/download
+
+Without further information, it is not possible to determine which specific endpoints are used by LiveSynth.
+
+==================================================
+==================================================
+==================================================
+Title: RenpyDialogToAudio: https://github.com/lugia19/renpyDialogToAudio
+Conversation:
+assistant:
+1) The background info provides documentation for ElevenLabs' API, which includes endpoints for text-to-speech, accessing models and voices, managing samples and history, and user information. 
+2) The text is a description of a GitHub repository called RenpyDialogToAudio, which is a tool that takes a Renpy dialog export and generates voices using ElevenLabs' API. It includes a GUI that prompts the user to specify the dialog file, directory to save the audio files, and API key. It also pulls a list of available voices and allows the user to assign a voice to each character in the dialog export. The audio files are saved as {identifier}.mp3 and can be used with the auto voice option. 
+3) 
+- RenpyDialogToAudio is a GitHub repository that generates voices using ElevenLabs' API.
+- It takes a Renpy dialog export and prompts the user to specify the dialog file, directory to save the audio files, and API key.
+- It pulls a list of available voices and allows the user to assign a voice to each character in the dialog export.
+- The audio files are saved as {identifier}.mp3 and can be used with the auto voice option.
+- The tool includes a GUI and can detect existing audio files to skip generating them again.
+- The installation involves downloading the repository, running the run.bat file (which creates a venv and installs requirements), and performing a git pull whenever it's run.
+
+user:
+Which endpoints are used?
+
+assistant:
+Based on the information provided in the text, it appears that the RenpyDialogToAudio tool uses the `/v1/text-to-speech/{voice_id}` endpoint of ElevenLabs' API for generating the audio files. It also pulls a list of available voices using the `/v1/voices` endpoint and allows the user to assign a voice to each character in the dialog export. However, it is possible that other endpoints are used as well, but this information is not explicitly stated in the text.
+
+==================================================
+==================================================
+==================================================
+Title: https://github.com/lugia19/ElvenLabsWhisperXSplit
+Conversation:
+assistant:
+1) The background info provides documentation for the API of ElevenLabs, which offers text-to-speech services. The API allows users to access different models, voices, and samples, as well as edit voice settings and generate audio files. 
+
+2) The text is a description of a Python script that uses the ElevenLabs API, along with the whisperX and pydub libraries, to generate and splice audio files. The script takes two strings as input, one for the spoken text and one for the text used to give it emotion, and generates a full audio file using the ElevenLabs API. It then uses whisperX to obtain word-level timestamps and identifies the start and end of the spoken text. Finally, it uses pydub to create a new audio file containing only the audio for the spoken text. 
+
+3) 
+- The text describes a Python script that uses the ElevenLabs API, whisperX, and pydub to generate and splice audio files.
+- The script takes two strings as input, one for the spoken text and one for the text used to give it emotion.
+- The script generates a full audio file using the ElevenLabs API.
+- The script uses whisperX to obtain word-level timestamps.
+- The script identifies the start and end of the spoken text.
+- The script uses pydub to create a new audio file containing only the audio for the spoken text.
+- The text provides instructions for trying out the script, including installing required libraries and editing the API key in the script. 
+- The text notes a dependency conflict due to pyannote-audio requiring an older version of soundfile than the minimum for mp3 support, but provides a workaround using a requirements file with pinned versions.
+
+user:
+Which endpoints are used?
+
+assistant:
+The text does not explicitly mention which endpoints of the ElevenLabs API are used by the Python script. However, based on the description of the script's functionality, it is likely that the `/v1/text-to-speech/{voice_id}` endpoint is used to generate the full audio file, and the `/v1/voices/{voice_id}/samples/{sample_id}/audio` endpoint is used to obtain the audio for the spoken text.
+
+==================================================
+==================================================
+==================================================
+Title: Swift5 API client for ElevenLabsAPI: https://github.com/trissylegs/swift-elevenlabs-io-openapi
+Conversation:
+assistant:
+1) The background info provides documentation for the ElevenLabs API, which includes various endpoints for accessing different resources such as models, voices, samples, and history. The API is experimental and subject to change.
+
+2) The text is a Swift 5 API client for the ElevenLabs API, generated using the OpenAPI Generator project. It provides an overview of the API and its endpoints, as well as instructions for installation using Carthage or CocoaPods.
+
+3) 
+- The text provides an overview of the ElevenLabs API and its endpoints, including HistoryAPI, SamplesAPI, TextToSpeechAPI, UserAPI, and VoicesAPI.
+- The API version is 1.0 and the package version is generated using Swift5ClientCodegen.
+- The text provides instructions for installation using Carthage or CocoaPods.
+- All URIs are relative to http://localhost.
+- The text provides a breakdown of the different classes and methods for accessing the API endpoints, including their HTTP requests and descriptions.
+- The text also provides documentation for the different models and authorizations used in the API.
+- The API is experimental and subject to change.
+
+user:
+Which endpoints are used?
+
+assistant:
+The text provides an overview of all the endpoints used in the ElevenLabs API, including:
+
+- HistoryAPI
+- SamplesAPI
+- TextToSpeechAPI
+- UserAPI
+- VoicesAPI
+
+Each endpoint has its own set of methods for accessing different resources within the API.
+
+==================================================
+==================================================
+==================================================
+Title: Get VoiceID using JS: https://github.com/SagerKudrick/elevenlabs_get_custom_voiceID
+Conversation:
+assistant:
+1) The background info is a documentation of the API provided by ElevenLabs. It includes various endpoints for accessing and manipulating different aspects of the platform, such as models, voices, samples, and history. 
+
+2) The text is a GitHub repository called "elevenlabs_get_custom_voiceID" created by a user named SagerKudrick. It provides a JavaScript file called "customvoiceid.js" that allows users to quickly get the IDs of their custom voices on the ElevenLabs platform. 
+
+3) 
+- The GitHub repository is called "elevenlabs_get_custom_voiceID"
+- The repository was created by a user named SagerKudrick
+- The repository provides a JavaScript file called "customvoiceid.js"
+- The JavaScript file allows users to quickly get the IDs of their custom voices on the ElevenLabs platform
+- The JavaScript file was updated by SagerKudrick on March 11th
+- The repository has 1 star and 2 watchers
+- The repository has 0 forks
+- There have been 5 commits to the repository
+- The repository has no releases or packages published
+- The JavaScript file is the only file in the repository, but there is also an "options.json" file that was created at some point.
+
+user:
+Which endpoints are used?
+
+assistant:
+The text "elevenlabs_get_custom_voiceID" and the JavaScript file "customvoiceid.js" do not directly use any of the endpoints provided by the ElevenLabs API documentation. However, the JavaScript file may use some of the endpoints internally to retrieve the custom voice IDs. Without further analysis of the code in the JavaScript file, it is not possible to determine which endpoints are used.
+
+==================================================
+==================================================
+==================================================
+Title: A non-official ElevenLabs voice synthesis RESTful client for the Unity Game Engine. https://github.com/RageAgainstThePixel/com.rest.elevenlabs
+Conversation:
+assistant:
+1) The background info provides documentation for ElevenLabs' API, which includes endpoints for text-to-speech, accessing models and voices, managing samples and history, and user information.
+2) The text is a description of a non-official ElevenLabs voice synthesis RESTful client for the Unity Game Engine, available on GitHub. It includes information on installation, authentication, API proxy, editor dashboard, speech synthesis, voice lab, voice designer, voice cloning, history, and user information.
+3) 
+- The text describes a non-official ElevenLabs voice synthesis RESTful client for the Unity Game Engine, available on GitHub.
+- The client is based on ElevenLabs-DotNet and requires an account with API access.
+- The client includes features such as speech synthesis, voice lab, voice designer, voice cloning, history, and user information.
+- The text provides instructions for installation via Unity Package Manager and OpenUPM or Git URL.
+- The text explains four ways to provide API keys for authentication, in order of precedence.
+- The text describes an API proxy for mitigating security risks when using ElevenLabs packages directly in front-end apps.
+- The text provides examples of how to set up and use the API proxy in front-end and back-end configurations.
+- The text describes the editor dashboard, which allows users to perform all actions available on the ElevenLabs website.
+- The text provides examples of how to use the client to convert text to speech, access voices and voice settings, manage samples and history, and access user information.
+
+user:
+Which endpoints are used?
+
+assistant:
+The text mentions several endpoints from ElevenLabs' API, including:
+
+- POST /v1/text-to-speech/{voice_id}: used for text-to-speech synthesis
+- GET /v1/models: used for accessing models
+- GET /v1/voices: used for accessing voices
+- GET /v1/voices/settings/default: used for accessing default voice settings
+- GET /v1/voices/{voice_id}/settings: used for accessing voice settings
+- GET /v1/voices/{voice_id}: used for accessing a specific voice
+- POST /v1/voices/{voice_id}/settings/edit: used for editing voice settings
+- POST /v1/voices/add: used for adding a new voice
+- POST /v1/voices/{voice_id}/edit: used for editing a voice
+- DELETE /v1/voices/{voice_id}: used for deleting a voice
+- DELETE /v1/voices/{voice_id}/samples/{sample_id}: used for deleting a voice sample
+- GET /v1/history: used for accessing history items
+- GET /v1/history
+
+==================================================
+==================================================
+==================================================
+Title: A non-official Eleven Labs voice synthesis RESTful client for .Net https://github.com/RageAgainstThePixel/ElevenLabs-DotNet 
+Conversation:
+assistant:
+1) The background info provides documentation for ElevenLabs' API, which includes endpoints for text-to-speech, accessing models and voices, managing samples and history, and user information.
+2) The text is a description of a non-official ElevenLabs RESTful API client for .Net, available on GitHub. It includes information on how to install and use the client, as well as details on authentication and accessing various endpoints for text-to-speech, voices, samples, history, and user information.
+3) 
+- The text describes a non-official ElevenLabs RESTful API client for .Net available on GitHub.
+- The client provides access to various endpoints for text-to-speech, voices, samples, history, and user information.
+- The text provides information on how to install and use the client, including details on authentication.
+- The client can be authenticated using API keys passed directly with the constructor, loaded from a configuration file, or using system environment variables.
+- The text provides examples of how to use the client to access various endpoints, including getting all available voices, getting default voice settings, editing voice settings, adding and editing voices, and accessing samples and history.
+- The text also includes information on using an API proxy to mitigate the risk of exposing API keys and other sensitive information.
+
+user:
+Which endpoints are used?
+
+assistant:
+The text describes the use of several endpoints, including:
+
+- POST /v1/text-to-speech/{voice_id}: for converting text to speech
+- GET /v1/voices: for accessing all available voices
+- GET /v1/voices/settings/default: for getting the global default voice settings
+- GET /v1/voices/{voice_id}: for getting a specific voice
+- POST /v1/voices/{voice_id}/settings/edit: for editing the settings for a specific voice
+- POST /v1/voices/add: for adding a new voice
+- POST /v1/voices/{voice_id}/edit: for editing an existing voice
+- DELETE /v1/voices/{voice_id}: for deleting a voice
+- GET /v1/voices/{voice_id}/samples/{sample_id}/audio: for getting audio from a voice sample
+- DELETE /v1/voices/{voice_id}/samples/{sample_id}: for deleting a voice sample
+- GET /v1/history: for accessing previously synthesized audio clips and their metadata
+- GET /v1/history/{history_item_id}/audio: for getting audio from a specific history item
+- DELETE /v1/history/{history_item_id}: for deleting a history item
+- GET /v1/user: for accessing user information
+- GET /v1/user/subscription: for accessing subscription information.
+
+==================================================
+==================================================
+==================================================
+Title: Flutter app using ElevenLabs TTS: https://github.com/LunarioTK/ElevenLabs_tts
+Conversation:
+assistant:
+1) The background info provides documentation for ElevenLabs API, which includes endpoints for text-to-speech, accessing models and voices, managing samples and history, and user information.
+
+2) The text is a GitHub repository for a Flutter app that uses ElevenLabs TTS API to read text. It includes information on the project's resources, Git stats, and file structure.
+
+3) 
+- The GitHub repository is for a Flutter app that uses ElevenLabs TTS API to read text.
+- The app uses the API's text-to-speech endpoint.
+- The repository includes information on the project's resources, such as the README and Git stats.
+- The app is written in C++, CMake, Dart, HTML, C, Swift, and other languages.
+- The repository includes files for different platforms, such as Android, iOS, Linux, macOS, and Windows.
+- The app's file structure includes directories for lib, test, and web.
+- The README includes information on getting started with Flutter development and links to resources such as the Flutter Lab and Cookbook.
+
+user:
+Which endpoints are used?
+
+assistant:
+Based on the information provided in the text, it appears that the app uses the text-to-speech endpoint of ElevenLabs TTS API. However, it is not clear if any other endpoints are used.
+
+==================================================
+==================================================
+==================================================
